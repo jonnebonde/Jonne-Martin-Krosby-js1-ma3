@@ -35,7 +35,8 @@ setTimeout(function() {
                     resultsContainer.innerHTML += `<div class="result">
                                                     <h2>Name: ${gameName}</h2>
                                                     <p>Rating: ${gameRating}</p>
-                                                    <p>Number of tags: ${gameTags}</div>`
+                                                    <p>Number of tags: ${gameTags}</p>
+                                                    </div>`
                 } 
             }
         
