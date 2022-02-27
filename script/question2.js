@@ -42,7 +42,7 @@ setTimeout(function() {
         
         catch (error) {
             console.log("error while loading API")
-            resultsContainer.innerHTML = errorMessage("Could`n fetch the API, try to refresh page (press F5)")
+            resultsContainer.innerHTML = errorMessage("Unwanted error occured")
         }
         
        
