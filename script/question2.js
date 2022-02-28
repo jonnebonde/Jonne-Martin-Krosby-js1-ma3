@@ -1,11 +1,10 @@
 
 
-const ur = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=69c560cd78c84554953747e1790c6b33";
+const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=69c560cd78c84554953747e1790c6b33";
 
 const resultsContainer = document.querySelector(".result-container");
 
 
-setTimeout(function() {
 
     async function getApi() {
 
@@ -51,6 +50,6 @@ setTimeout(function() {
     getApi();
 
 
-}, 1100) 
+
 
 
